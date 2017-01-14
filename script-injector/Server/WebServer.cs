@@ -7,7 +7,7 @@ using System.Net;
 using System.Threading;
 using System.Web;
 
-namespace GTANetworkTruckShitUp.resources.script_injector.Server
+namespace ScriptInjector.Server
 {
     public class WebServer
     {

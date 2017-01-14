@@ -4,7 +4,7 @@ using System.Diagnostics;
 using System.Linq;
 using System.Net;
 
-namespace GTANetworkTruckShitUp.resources.script_injector.Server
+namespace ScriptInjector.Server
 {
     public class Main : Script
     {

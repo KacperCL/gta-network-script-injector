@@ -2,7 +2,7 @@
 using System.Net;
 using System.Text;
 
-namespace GTANetworkTruckShitUp.resources.script_injector.Server
+namespace ScriptInjector.Server
 {
     public static class HttpListenerExtensions
     {

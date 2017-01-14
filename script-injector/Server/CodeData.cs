@@ -1,4 +1,4 @@
-﻿namespace GTANetworkTruckShitUp.resources.script_injector.Server
+﻿namespace ScriptInjector.Server
 {
     public class CodeData
     {
