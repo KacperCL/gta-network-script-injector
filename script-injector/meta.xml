@@ -1,0 +1,19 @@
+﻿<meta>
+    <info name="Script Injector" description="Does what it says it does" author="René" version="1.0" />
+
+    <script src="Server/CodeData.cs" type="server" lang="csharp" />
+    <script src="Server/WebServer.cs" type="server" lang="csharp" />
+    <script src="Server/HttpListenerExtensions.cs" type="server" lang="csharp" />
+    <script src="Server/Main.cs" type="server" lang="csharp" />
+
+    <script src="Server/Lib/Newtonsoft.Json.dll" type="server" lang="compiled" />
+    
+    <assembly ref="System.Web.dll" />
+    <assembly ref="Newtonsoft.Json.dll" />
+
+    <script src="Client/Main.js" type="client" lang="javascript" />
+
+    <settings>
+        <setting name="port" value="8080" default="8080"/>
+    </settings>
+</meta>

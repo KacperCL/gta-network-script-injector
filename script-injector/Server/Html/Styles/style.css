@@ -1,0 +1,40 @@
+﻿body {
+    font-family: sans-serif;
+    margin: 0;
+}
+
+.editor-pane {
+    float: left;
+    margin: 20px;
+}
+
+.editor-container {
+    position: relative;
+    width: 500px;
+    height: 300px;
+}
+
+#js-editor, #cs-editor {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+
+.btn {
+    display: inline-block;
+    border: 0;
+    padding: 10px 40px;
+    margin: 5px;
+    cursor: pointer;
+    background-color: #1574d2;
+    color: #FFF;
+    text-decoration: none;
+}
+    .btn:hover {
+        background-color: #3b8dde;
+    }
+    .btn:active {
+        background-color: #0f5ead;
+    }
